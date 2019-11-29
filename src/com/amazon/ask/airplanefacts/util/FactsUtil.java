@@ -9,7 +9,7 @@ public class FactsUtil {
 
     public static Map getFactMap() {
         Map<String, String> map = new HashMap<>();
-        map.put("Airbus-A380", "The airbus A-380 is the world's largest passenger airliner. It has 40% more usable floor than the next largest airliner, the Boeing 747-8, and provides seating for 525 people in a typical three-class configuration or up to 853 people in an all-economy class configuration.");
+        map.put("MostGoals", "The team with the most goals was Belgium with 16.");
         map.put("Boeing-747", "The 747-400, the most common variant in service, has a high-subsonic cruise speed of up to 570 miles per hour.");
         map.put("Boeing-767", "In 1985, the 767 became the first twin-engined airliner to receive regulatory approval for extended overseas flights.");
         map.put("Airbus-A320", "As of 31 March 2018, a total of 8,074 Airbus A320-family aircraft have been delivered, of which 7,722 are in service.");
@@ -19,7 +19,7 @@ public class FactsUtil {
 
     public static Map getImageMap() {
         Map<String, String> map = new HashMap<>();
-        map.put("Airbus-A380", "https://s3.amazonaws.com/ask-samples-resources/images/airbus.jpg");
+        map.put("MostGoals", "https://s3.amazonaws.com/ask-samples-resources/images/airbus.jpg");
         map.put("Boeing-747", "https://s3.amazonaws.com/ask-samples-resources/images/airplane-1.jpg");
         map.put("Boeing-767", "https://s3.amazonaws.com/ask-samples-resources/images/airplane-2.jpg");
         map.put("Airbus-A320", "https://s3.amazonaws.com/ask-samples-resources/images/airplane-3.jpg");
