@@ -17,10 +17,10 @@ public class FallBackIntentHandler implements RequestHandler{
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Sorry, I don't know that. Would you like an airplane fact?";
+        String speechText = "Sorry, I don't know that. Would you like a world cup fact?";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
-                .withSimpleCard("Airplane Facts", speechText)
+                .withSimpleCard("World Cup Trivia", speechText)
                 .withReprompt(speechText)
                 .build();
     }
